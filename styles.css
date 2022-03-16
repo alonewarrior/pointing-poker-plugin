@@ -1,0 +1,67 @@
+body {
+	background-color: #333 !important;
+	color: #fff !important;
+}
+
+.player {
+	background-color: #333 !important;
+	border-bottom: 1px solid #888;
+	padding-bottom: .25em;
+}
+.player:last-child {
+	border: none;
+}
+
+.playerName.playerVoted {
+	background-color: #333 !important;
+}
+
+.playerName .icon-ok {
+	vertical-align: baseline;
+	background-color: #bbb;
+}
+
+.voteHidden {
+	background-color: #111 !important;
+}
+
+.well {
+	background-color: #222 !important;
+}
+
+.hero-unit {
+	background-color: #444 !important;
+}
+
+textarea {
+	background-color: #555 !important;
+	color: #fff !important;
+}
+
+/**
+ * Invite friends section
+ */
+.popover {
+	/*border-color: rgba(0,0,0, .45) !important;*/
+	background-color: #222 !important;
+	border: none !important;
+}
+
+.popover.right h3 {
+	background-color: #333 !important;
+}
+
+.popover .popover-title {
+	border-bottom-color: #4f4f4f;
+}
+
+
+/* Arrow */
+.popover.right .arrow::after {
+	border-right-color: #222 !important;
+}
+.popover.right .arrow {
+	/*border-right-color: rgba(0,0,0, .45) !important;*/
+	border-right-color: #222 !important;
+	background-color: #333 !important;
+}
